@@ -70,7 +70,7 @@
         <env key="CLASSPATH" file="${sdk.dir}/platforms/${target-version}/android.jar" />
         <arg value="-d" />
         <arg value="../bin/classes/" />
-        <arg value="technomancy/ohai/Ohai.duby" />
+        <arg value="." />
       </exec>
     </target>
         
