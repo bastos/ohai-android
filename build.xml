@@ -67,7 +67,7 @@
     <target name="compile" depends="-resource-src, -aidl"
             description="Compiles project's .duby files into .class files">
       <exec executable="dubyc" dir="src">
-        <env key="CLASSPATH" file="${sdk.dir}/platforms/${target-version}/android.jar" />
+        <env key="CLASSPATH" file="${android.jar}" />
         <arg value="-d" />
         <arg value="../bin/classes/" />
         <arg value="." />
